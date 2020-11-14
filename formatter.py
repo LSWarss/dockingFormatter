@@ -10,7 +10,7 @@ class DockingFormatter:
         i = 0
         modeIterator = 0
         proccessedCompound = ""
-        affinitCount = ""
+        # affinitCount = ""
         #TODO: Correct appending proccessedCompound to the affinity_list
         for x in f:
             if "Processing compound" in x: #43 i in loop 
@@ -19,7 +19,6 @@ class DockingFormatter:
                 modeIterator = i
             if i == (modeIterator + 3):
                 # affinitCount += x[13:17]
-                print(proccessedCompound)
                 affinity_list.append([proccessedCompound,x[3:4],x[13:17]])
                 proccessedCompound = ""
             # if i == (modeIterator + 4) and x[13:17] == affinitCount:
