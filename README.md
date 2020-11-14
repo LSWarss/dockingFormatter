@@ -7,3 +7,4 @@ Simple Python script for taking out data from docking logs
 - [x] Processing compound
 - [x] The lowest from affinity for mode
 - [ ] Print all modes with the same affinity
+- [ ] Test on bigger number of files

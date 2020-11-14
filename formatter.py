@@ -10,18 +10,34 @@ class DockingFormatter:
         i = 0
         modeIterator = 0
         proccessedCompound = ""
+        affinitCount = ""
         for x in f:
             if "Processing compound" in x:
                 proccessedCompound += x[-14:-8]
             if "mode" in x:
                 modeIterator = i
             if i == (modeIterator + 3):
+                affinitCount += x[13:17]
                 affinity_list.append([proccessedCompound,x[3:4],x[13:17]])
+            if i == (modeIterator + 4) and x[13:17] == affinitCount:
+                affinity_list.append([proccessedCompound,x[3:4], x[13:17]])
+            else:
+                affinitCount = ""
                 proccessedCompound = ""
+                break
+            if i == (modeIterator + 5) and x[13:17] == affinitCount:
+                affinity_list.append([proccessedCompound,x[3:4], x[13:17]])
+            else:
+                affinitCount = ""
+                proccessedCompound = ""
+            if i == (modeIterator + 6) and x[13:17] == affinitCount:
+                affinity_list.append([proccessedCompound,x[3:4], x[13:17]])
+                affinitCount = ""
+                proccessedCompound = ""
+                
             i += 1
         affinity_list.pop(0)
         affinity_list.pop(1)
-        print(affinity_list)
         f.close()
         # with open(fileName + ".csv", 'w') as csv_file:
         #     writer = csv.writer(csv_file)
