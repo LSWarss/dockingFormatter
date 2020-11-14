@@ -131,3 +131,6 @@ dmypy.json
 # File system
 /logs
 /results
+
+#VSCODE
+.vscode
