@@ -1,0 +1,539 @@
+*****************************************************************
+Starting mass docking @2020:11:14:10:4:16:5:319:0.
+CWD: /home/kataszl203/dokowanie_kasia/dokowanie_APO_10_wat
+Vina version: AutoDock Vina 1.1.2 (May 11, 2011)
+Input options:
+vina executable      (-v): /usr/bin/vina
+configuration file   (-c): config.txt
+mol2_to_pdbqt script (-p): scripts/mol2_pdbqt
+mol2 file            (-m): Ligandy/ligandy.mol2
+*****************************************************************
+Configuration file content:
+size_x =  22.50
+size_y =  22.50
+size_z =  22.50
+center_x = -15.80
+center_y = -32.44
+center_z =   2.04
+
+receptor = receptor_wat.pdbqt
+
+exhaustiveness = 12 
+num_modes = 10
+energy_range = 3
+cpu = 5
+
+*****************************************************************
+Starting main loop:
+-----------------------------------------------------------------
+Processing compound KAS-1-0 (0):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-1-0.pdbqt --log KAS-1-0.log --out KAS-1-0-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1825385680
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.4      0.000      0.000
+   2         -4.3      0.339      3.870
+   3         -4.2      2.315      3.292
+   4         -4.2      2.190      4.713
+   5         -4.1      2.746      5.334
+   6         -4.1      1.908      5.012
+   7         -4.1      1.906      2.900
+   8         -4.0      3.762      6.412
+   9         -4.0      1.731      2.666
+  10         -4.0      3.680      5.800
+Writing output ... done.
+
+Calculation time for current compound: 6 s
+Total calculation time: 6 s
+Average calculation time for one compound: 6 s
+Estimated time to finish all calculations: 20 s
+Estimated total calculation time: 27 s
+ 24 % done.
+-----------------------------------------------------------------
+Processing compound KAS-8-1 (1):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-8-1.pdbqt --log KAS-8-1.log --out KAS-8-1-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1657015363
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.1      0.000      0.000
+   2         -6.0      2.087      2.686
+   3         -5.9      3.310      4.029
+   4         -5.7      2.035      2.974
+   5         -5.5      2.478      3.488
+   6         -5.5      4.357      6.841
+   7         -5.4      3.906      5.573
+   8         -5.3      5.391      6.498
+   9         -5.3      3.621      6.320
+  10         -5.2      2.990      4.022
+Writing output ... done.
+
+Calculation time for current compound: 7 s
+Total calculation time: 13 s
+Average calculation time for one compound: 6 s
+Estimated time to finish all calculations: 42 s
+Estimated total calculation time: 56 s
+ 24 % done.
+-----------------------------------------------------------------
+Processing compound KAS-13-2 (2):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-13-2.pdbqt --log KAS-13-2.log --out KAS-13-2-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1530790022
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.7      0.000      0.000
+   2         -4.7      0.880      3.635
+   3         -4.6      3.433      4.801
+   4         -4.5      3.139      4.809
+   5         -4.4      2.085      3.627
+   6         -4.4      1.709      2.368
+   7         -4.4      2.908      5.014
+   8         -4.3      3.337      4.716
+   9         -4.3      1.968      2.985
+  10         -4.3      3.042      6.204
+Writing output ... done.
+
+Calculation time for current compound: 9 s
+Total calculation time: 23 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 18 s
+Estimated total calculation time: 41 s
+ 55 % done.
+-----------------------------------------------------------------
+Processing compound KAS-15-3 (3):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-15-3.pdbqt --log KAS-15-3.log --out KAS-15-3-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1404654408
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.1      0.000      0.000
+   2         -4.8      1.677      2.162
+   3         -4.8      4.679      6.326
+   4         -4.8      4.495      5.826
+   5         -4.7      2.417      3.706
+   6         -4.7      4.848      7.073
+   7         -4.7      4.809      7.523
+   8         -4.6      4.641      6.534
+   9         -4.5      4.659      7.248
+  10         -4.4      3.342      4.037
+Writing output ... done.
+
+Calculation time for current compound: 6 s
+Total calculation time: 29 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 23 s
+Estimated total calculation time: 52 s
+ 55 % done.
+-----------------------------------------------------------------
+Processing compound KAS-16-4 (4):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-16-4.pdbqt --log KAS-16-4.log --out KAS-16-4-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1278399990
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -4.5      0.000      0.000
+   2         -4.4      4.573      5.894
+   3         -4.4      5.795      7.635
+   4         -4.3      4.869      6.195
+   5         -4.3      4.889      6.122
+   6         -4.2      4.799      6.663
+   7         -4.2      4.206      5.170
+   8         -4.2      4.985      6.802
+   9         -4.1      4.453      6.651
+  10         -4.1      4.303      6.112
+Writing output ... done.
+
+Calculation time for current compound: 6 s
+Total calculation time: 35 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 28 s
+Estimated total calculation time: 63 s
+ 55 % done.
+-----------------------------------------------------------------
+Processing compound KAS-17-5 (5):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-17-5.pdbqt --log KAS-17-5.log --out KAS-17-5-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1152145860
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.7      0.000      0.000
+   2         -5.5      2.475      4.315
+   3         -5.4      3.788      6.325
+   4         -5.3      3.213      5.795
+   5         -5.2      4.379      5.954
+   6         -5.2      3.950      6.693
+   7         -5.2      2.611      5.861
+   8         -5.1      5.058      7.179
+   9         -5.1      2.762      6.175
+  10         -5.1      1.901      5.290
+Writing output ... done.
+
+Calculation time for current compound: 7 s
+Total calculation time: 42 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 6 s
+Estimated total calculation time: 49 s
+ 86 % done.
+-----------------------------------------------------------------
+Processing compound KAS-18-6 (6):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-18-6.pdbqt --log KAS-18-6.log --out KAS-18-6-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 1025921887
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.7      0.000      0.000
+   2         -5.5      3.435      5.694
+   3         -5.4      1.766      2.186
+   4         -5.4      4.185      6.133
+   5         -5.4      4.416      6.206
+   6         -5.4      3.678      5.369
+   7         -5.4      5.209      7.742
+   8         -5.3      7.017      8.568
+   9         -5.2      6.766      8.554
+  10         -5.2      6.710      8.014
+Writing output ... done.
+
+Calculation time for current compound: 8 s
+Total calculation time: 50 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 7 s
+Estimated total calculation time: 58 s
+ 86 % done.
+-----------------------------------------------------------------
+Processing compound KAS-19-7 (7):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-19-7.pdbqt --log KAS-19-7.log --out KAS-19-7-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 899728143
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.3      0.000      0.000
+   2         -5.2      1.486      2.045
+   3         -5.2      3.560      7.780
+   4         -5.2      2.469      3.783
+   5         -5.2      1.033      1.913
+   6         -5.0      3.174      5.060
+   7         -5.0      4.820      6.071
+   8         -4.9      3.568      7.631
+   9         -4.8      1.335      2.422
+  10         -4.8      2.791      6.764
+Writing output ... done.
+
+Calculation time for current compound: 8 s
+Total calculation time: 59 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 9 s
+Estimated total calculation time: 68 s
+ 86 % done.
+-----------------------------------------------------------------
+Processing compound KAS-22-8 (8):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-22-8.pdbqt --log KAS-22-8.log --out KAS-22-8-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: 773534783
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -5.4      0.000      0.000
+   2         -5.3      3.039      4.827
+   3         -5.2      0.686      1.704
+   4         -5.2      2.190      4.447
+   5         -5.2      2.735      5.413
+   6         -5.2      3.193      5.466
+   7         -5.2      2.769      3.755
+   8         -5.1      1.908      4.047
+   9         -5.0      2.735      5.580
+  10         -5.0      2.071      4.673
+Writing output ... done.
+
+Calculation time for current compound: 10 s
+Total calculation time: 69 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 0 s
+Estimated total calculation time: 69 s
+100 % done.
+-----------------------------------------------------------------
+Processing compound KAS-23-9 (9):
+Convering mol2 to pdbqt:
+Running vina: /usr/bin/vina --config config.txt --ligand KAS-23-9.pdbqt --log KAS-23-9.log --out KAS-23-9-out.pdbqt
+Vina stdout:
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, Journal of Computational Chemistry 31 (2010)  #
+# 455-461                                                       #
+#                                                               #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see http://vina.scripps.edu for more information.      #
+#################################################################
+
+Reading input ... done.
+Setting up the scoring function ... done.
+Analyzing the binding site ... done.
+Using random seed: -2042190940
+Performing search ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+done.
+Refining results ... done.
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1         -6.6      0.000      0.000
+   2         -6.4      5.131      7.708
+   3         -6.4      3.039      5.750
+   4         -6.3      3.287      6.344
+   5         -6.3      3.250      6.131
+   6         -6.3      4.920      8.054
+   7         -6.3      5.046      8.165
+   8         -6.2      2.538      5.373
+   9         -6.1      3.241      6.495
+  10         -5.9      4.453      7.184
+Writing output ... done.
+
+Calculation time for current compound: 9 s
+Total calculation time: 78 s
+Average calculation time for one compound: 7 s
+Estimated time to finish all calculations: 0 s
+Estimated total calculation time: 78 s
+100 % done.
+-----------------------------------------------------------------
+Total calculation time: 78 s
