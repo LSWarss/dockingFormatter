@@ -129,8 +129,8 @@ dmypy.json
 .pyre/
 
 # File system
-/logs
-/results
+logs/
+
 
 #VSCODE
-.vscode
+.vscode/
