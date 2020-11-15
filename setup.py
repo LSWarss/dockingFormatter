@@ -23,6 +23,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        dockingFormatter=dockingFormatter:run
+        dockingFormatter=main:run
     ''',
 )
