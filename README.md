@@ -1,5 +1,7 @@
 # dockingFormatter
 
 ## Description
-Simple Python script for taking out data from docking logs
+Simple formatter for docking logs
 
+### Status 
+In progress

@@ -1,6 +1,5 @@
-#!/usr/bin/python
-
-from formatter import DockingFormatter 
+#!/usr/bin/env python
+from DockingFormatter import DockingFormatter 
 import sys 
 import argparse
 
