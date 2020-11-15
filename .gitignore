@@ -131,6 +131,6 @@ dmypy.json
 # File system
 logs/
 
-
 #VSCODE
 .vscode/
+.DS_Store
