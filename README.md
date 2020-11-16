@@ -1,7 +1,5 @@
 # dockingFormatter
 
-## Description
-
 Simple formatter for docking of the compound logs. That takes docking log and returns interesting findings in format of xlsx file.
 
 ## Installation
