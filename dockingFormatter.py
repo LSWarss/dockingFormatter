@@ -3,7 +3,7 @@ import openpyxl
 
 class DockingFormatter:
 
-    def findAffinityForCompound(self, fileName):
+    def findAffinityForCompound(self, fileName, **kwargs):
         #Creation of the intersting proccessedCompounds list
         affinity_list = []
         f = open(fileName)
@@ -57,7 +57,13 @@ class DockingFormatter:
         sheet["C1"] = "Affinity"
         for row in affinity_list:
             sheet.append(row)
-        workbook.save(f"{fileName[:-4]}.xlsx")
+        if 'output' in kwargs:
+            if '.xlsx' in kwargs.get("output"):
+                workbook.save(f"{kwargs.get('output')}")
+            else: 
+                workbook.save(f"{kwargs.get('output')}.xlsx")
+        else:
+            workbook.save(f"{fileName[:-4]}.xlsx")
         
 
 
