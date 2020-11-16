@@ -1,11 +1,11 @@
-from setuptools import setup, find_packages
+import setuptools
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
 
-setup(
+setuptools.setup(
     name='dockingFormatter',
-    version='1.0.0',
+    version='1.1.0',
     description='A docking logs formatter',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -13,9 +13,8 @@ setup(
     author='Łukasz Stachnik',
     author_email='ls.warss98@gmail.com',
     license='MIT License',
-    packages=find_packages(),
-    include_package_data=True,
     install_requires=['openpyxl','Click'],
+    py_modules=['formatter', 'dockingFormatter'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -23,6 +22,7 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        dockingFormatter=main:run
+        dockingFormatter=dockingFormatter:run
     ''',
 )
+
