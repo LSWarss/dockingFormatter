@@ -1,12 +1,10 @@
 # dockingFormatter
 
-## Description
-
 Simple formatter for docking of the compound logs. That takes docking log and returns interesting findings in format of xlsx file.
 
 ## Installation
 
-You can install the **dockingFormatter** from [PyPI](https://pypi.org/):
+You can install the **dockingFormatter** from [PyPI](https://pypi.org/project/dockingFormatter/):
 
 ```
 pip install dockingFormatter
@@ -46,6 +44,6 @@ to see all options and description you can use
 
 ```
 
-$ docking Formatter --help
+$ dockingFormatter --help
 
 ```
