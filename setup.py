@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setup(
     name='dockingFormatter',
-    version='0.3.0',
+    version='1.0.0',
     description='A docking logs formatter',
     long_description=long_description,
     long_description_content_type="text/markdown",
